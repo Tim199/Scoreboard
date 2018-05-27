@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'scoreboard';
+    src: url('scoreboard-webfont.woff2') format('woff2'),
+         url('scoreboard-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #343434;
+}
+
+#wrap-content{
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+	height: 100%;
+	width: 100%;
+}
+
+#content{
+	background-color: rgba(175, 175, 175, 0.7);
+	border-radius: 30px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.logo{
+	margin-top: 150px;
+	width: 200px;
+}
+
+.team{
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+#blue-score, #red-score{
+	padding: 50px;
+	font-size: 125px;
+	font-family: 'scoreboard';
+}
+
+#timer{
+	margin: 30px;
+	font-size: 150px;
+	font-family: 'scoreboard';
+}
+
+#period{
+	padding-left: 70px;
+	font-size: 100px;
+	font-family: 'scoreboard';
+}
