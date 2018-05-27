@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Scoreboard</title>
+	<link rel="stylesheet" href="stylesheet.css" />
+	<script src="puck_code.js"></script>
+</head>
+<body>
+	<script src="https://www.puck-js.com/puck.js"></script>
+	<button onclick="Puck.write('LED1.set();\n');">On!</button>
+	<div id="wrap-content">
+		<div id="content">
+			<div class="team">
+				<img class="logo" src="red_logo.png">
+				<div id="red-score">0</div>
+			</div>	
+			<div> 
+				<div id="timer">5:00</div>
+				<div id="period">1</div>
+			</div>
+			<div class="team">
+				<img class="logo" src="blue_logo.png">
+				<div id="blue-score">0</div>
+			</div>
+		</div>		
+	</div>
+</body>
+</html>
